@@ -56,6 +56,13 @@ Bu çalışmanın sonuçları umut verici olmakla birlikte, gelecekte aşağıda
 4. **Özellik Mühendisliği**: Daha fazla özellik eklenerek modelin tahmin gücü artırılabilir. Örneğin, geçmiş hava durumu verileri, mevsimsel döngüler ve coğrafi faktörler gibi.
 5. **Modelin Kullanılabilirliği**: Geliştirilen modelin web veya mobil uygulamalar üzerinden kullanıcılara sunulması, pratik bir kullanım imkanı sağlayacaktır.
 
+
+# Lisans ve destek vermek için:
+## 🤝 Katkıda Bulunma
+Projeye katkıda bulunmak isterseniz, lütfen bir pull request oluşturun veya bir issue açın. Her türlü geri bildirime açığız.
+
+## Lisans Bu proje MIT Lisansı altında lisanslanmıştır. Lisans detaylarını LICENSE dosyasından görebilirsiniz.
+
 ## 📈 Rastgele Gün Tahmini
 Aşağıdaki kod, rastgele bir gün seçerek tahmin yapar ve bu tahmini gerçek değer ile karşılaştırır:
 
@@ -76,11 +83,4 @@ random_day_prediction = rf_classifier.predict([random_day_features])
 print(f"Seçilen günün özellikleri: \n{random_day_features}")
 print(f"Gerçek Hava Türü: {label_encoder.inverse_transform([random_day_actual])[0]}")
 print(f"Tahmin Edilen Hava Türü: {label_encoder.inverse_transform(random_day_prediction)[0]}")
-
-
-# Lisans ve destek vermek için:
-## 🤝 Katkıda Bulunma
-Projeye katkıda bulunmak isterseniz, lütfen bir pull request oluşturun veya bir issue açın. Her türlü geri bildirime açığız.
-
-## Lisans Bu proje MIT Lisansı altında lisanslanmıştır. Lisans detaylarını LICENSE dosyasından görebilirsiniz.
 
