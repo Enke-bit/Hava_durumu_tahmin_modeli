@@ -77,6 +77,8 @@ print(f"Seçilen günün özellikleri: \n{random_day_features}")
 print(f"Gerçek Hava Türü: {label_encoder.inverse_transform([random_day_actual])[0]}")
 print(f"Tahmin Edilen Hava Türü: {label_encoder.inverse_transform(random_day_prediction)[0]}")
 
+
+# Lisans ve destek vermek için:
 ## 🤝 Katkıda Bulunma
 Projeye katkıda bulunmak isterseniz, lütfen bir pull request oluşturun veya bir issue açın. Her türlü geri bildirime açığız.
 
